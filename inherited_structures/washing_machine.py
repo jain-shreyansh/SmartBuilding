@@ -1,4 +1,4 @@
-import generic
+import core.generic
 
 
 class WashingMachine(generic.Structure):
