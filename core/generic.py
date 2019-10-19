@@ -2,7 +2,6 @@ class Structure:
     def __init__(self, parent=None):
         self.children = {}
         self.parent = parent
-        self.current_time = None
         self.funcs = []
 
     def addChild(self, key, child):
@@ -15,7 +14,7 @@ class Structure:
         for func in funcs:
             if func == None:
                 pass
-            func(self.current_time)
+            func()
     
     
     
