@@ -1,0 +1,15 @@
+{'id': 'aeef0ee3-f1eb-4e15-bcd9-43cddc8ecdee-7e4f1f27', 'lang': 'en',
+     'sessionId': 'oshack-vit-1', 'timestamp': '2019-10-19T09:20:20.916Z',
+      'result': {'source': 'agent', 'resolvedQuery': 'vishaal', 'action': '',
+         'actionIncomplete': False, 'score': 1.0, 'parameters':
+          {'name': 'Vishaal'}, 'contexts': [{'name': 'awaiting_apmno', 'lifespan': 5,
+             'parameters': {'name': 'Vishaal', 'name.original': 'vishaal'}},
+              {'name': 'awaiting_name', 'lifespan': 4, 'parameters': 
+                {'name': 'Vishaal', 'name.original': 'vishaal'}}], 'metadata': 
+                {'intentId': 'b289da63-6bf2-40e8-bc10-5023572fc207', 'intentName': 'GetName'
+                    , 'webhookUsed': 'false', 'webhookForSlotFillingUsed': 'false', 
+                    'isFallbackIntent': 'false'}, 'fulfillment': 
+                    {'speech': 'Thanks Vishaal can you tell me your apartment number?',
+                         'messages': [{'lang': 'en', 'type': 0,
+                             'speech': 'Thanks Vishaal can you tell me your apartment number?'}]}},
+                              'status': {'code': 200, 'errorType': 'success'}}
